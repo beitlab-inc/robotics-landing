@@ -1,0 +1,15 @@
+{
+  "name": "beitlab-robotics-landing",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static landing page with Playwright smoke tests",
+  "scripts": {
+    "test": "npm run test:e2e",
+    "test:e2e": "playwright test",
+    "test:e2e:headed": "playwright test --headed",
+    "test:e2e:ui": "playwright test --ui"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.2"
+  }
+}
